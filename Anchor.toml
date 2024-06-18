@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+wallet_smart_contract = "46SuxeLQ7VFBB1LDK8CK8JJycTkn6LDLPxpF85ii9XxJ"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "/home/suman1/.config/solana/id.json"
+
+[scripts]
+test = "cargo test --manifest-path=Cargo.toml -- --nocapture"
