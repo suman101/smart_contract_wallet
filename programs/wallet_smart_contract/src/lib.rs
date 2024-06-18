@@ -28,7 +28,6 @@ pub mod mass_payouts {
                 payout.amount,
             )?;
         }
-
         Ok(())
     }
 }
